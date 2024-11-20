@@ -33,6 +33,7 @@ Within the festival, the attendee will learn, eat, spend, and experience an even
 
 # Wireframe Link 
 GitHub: https://ltong03.github.io/tongFestival/schedule/schedule.html
+
 Figma: https://www.figma.com/design/ufXNUxwB5VuiHwLNh1osFT/Feastival?node-id=0-1&t=n9w6AOeX1CodGN2x-1
 
 
