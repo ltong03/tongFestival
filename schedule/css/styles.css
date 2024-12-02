@@ -1,0 +1,165 @@
+.irish-grover-regular {
+   font-family: "Irish Grover", system-ui;
+   font-weight: 400;
+   font-style: normal;
+}
+
+.atma-light {
+   font-family: "Atma", system-ui;
+   font-weight: 300;
+   font-style: normal;
+ }
+ 
+ .atma-regular {
+   font-family: "Atma", system-ui;
+   font-weight: 400;
+   font-style: normal;
+ }
+ 
+ .atma-medium {
+   font-family: "Atma", system-ui;
+   font-weight: 500;
+   font-style: normal;
+ }
+ 
+ .atma-semibold {
+   font-family: "Atma", system-ui;
+   font-weight: 600;
+   font-style: normal;
+ }
+ 
+ .atma-bold {
+   font-family: "Atma", system-ui;
+   font-weight: 700;
+   font-style: normal;
+ }
+
+* {
+
+    margin: 0;
+    padding: 0;
+ 
+ }
+
+ body {
+    margin: 25px 50px;
+    background-color: peachpuff;
+ 
+ }
+ 
+ nav a {
+    color: black;
+    text-transform: uppercase;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+ }
+
+ .center {
+   margin: 0 auto;
+   width: 200px;
+   display: flex;
+   justify-content: center;
+}
+ 
+ .responsive {
+    width: 50%;
+    height: auto;
+ }
+ 
+ h1 {
+   font-family: "Irish Grover", system-ui;
+    font-size: 50px;
+    letter-spacing: .1em;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: orange;
+ 
+    text-align: center;
+ 
+    text-transform: uppercase;
+ }
+ 
+   h1 a {
+    color: seagreen;
+ }
+ 
+ 
+ h2 {
+   font-family: "Irish Grover", system-ui;
+   font-size: 35px;
+   letter-spacing: .1em;
+   margin-left: 15px;
+   margin-right: 15px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   color: #88E032;
+
+   text-align: center;
+
+   text-transform: uppercase;
+ }
+h3 {
+ color: black;
+   text-transform: uppercase;
+    font-family: "Atma", system-ui;
+    font-weight: 300;
+    font-style: normal;
+}
+ 
+ p {
+   color: black;
+   text-transform: uppercase;
+    font-family: "Atma", system-ui;
+    font-weight: 300;
+    font-style: normal;
+ }
+
+
+ li {
+ 
+    color: white;
+    font-family: "Josefin Sans", system-ui;
+    padding: 10px;
+    text-decoration: none
+ }
+ 
+ a {
+   font-family: "Josefin Sans", system-ui;
+   padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+   color: #FFC341;
+ 
+ }
+ 
+ nav a {
+   color: black;
+   text-transform: uppercase;
+    font-family: "Atma", system-ui;
+    font-weight: 300;
+    font-style: normal;
+}
+ 
+ li {
+    font-size: 10px;
+    text-decoration: none;
+    font-family: "Josefin Sans", system-ui;
+    color: #88E032;
+ }
+ 
+ ul a {
+    color: #88E032;
+ }
+ 
+ .social-links {
+    text-align: center;
+ }
+ 
+ footer {
+    text-align: center;
+ }
+
+
+ 
+
