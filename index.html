@@ -1,81 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
-    <meta charset="UTF-8">
-    <title>home page</title>
 
-<link rel="stylesheet" href="css/styles.css">
+<head>
+  <meta charset="UTF-8">
+  <title>home page</title>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cookie&family=Irish+Grover&family=Lexend:wght@100..900&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Bebas+Neue&family=Cookie&family=Irish+Grover&family=Lexend:wght@100..900&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cookie&family=Irish+Grover&family=Lexend:wght@100..900&family=Rubik+Wet+Paint&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
 
-
-  <title>Navigation Bar</title>
-  <style>
-    /* Style for the navigation bar */
-    nav {
-      background-color: orange; /* Dark background */
-      overflow: hidden; /* Clear floats */
-      padding: 10px; /* Add some padding */
-    }
-
-    /* Navigation links */
-    nav a {
-      color: white; /* White text */
-      text-decoration: none; /* Remove underline */
-      padding: 14px 20px; /* Add padding around links */
-      display: inline-block; /* Make links behave like buttons */
-    }
-
-    /* Change color on hover */
-    nav a:hover {
-      background-color: rgb(252, 184, 121); /* Slightly lighter background */
-      color: black; /* Lighter text */
-    }
-  </style>
 </head>
 
+<body>
 
-<h1>FEASTival</h1>
-<nav>
-<a href="/index.html">home</a>
-<a href="/schedule/schedule.html">schedule</a>
-<a href="/info/info.html">info</a>
-<a href="/about/about.html">about</a>
-</nav>
+<div style="text-align: center;">
+    <img src="img/logo.png" alt="intwetwined kitchen utensils surrounded by red, orange, and brown swirls" style="width: 150px;">
+  </div>
+
+<nav style="margin-top: 20px;">
+  <a href="/index.html">home</a>
+  <a href="/schedule/schedule.html">schedule</a>
+  <a href="/info/info.html">info</a>
+  <a href="/about/about.html">about</a>
+      <title>Right-Aligned Search Bar</title>
+      <style>
+          body {
+              font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+              margin: 20px;
+          }
+          .search-bar {
+              display: flex;
+              justify-content: flex-end; /* Aligns the bar to the right */
+              margin-right: 20px; /* Adds spacing from the edge */
+          }
+          .search-input {
+              width: 300px;
+              padding: 10px;
+              border: 1px solid #ccc;
+              border-radius: 4px;
+              font-size: 16px;
+          }
+          
+          .search-button {
+              margin-left: 5px;
+              padding: 10px 15px;
+              background-color: brown;
+              color: white;
+              border: none;
+              border-radius: 4px;
+              font-size: 16px;
+              cursor: pointer;
+          }
+          .search-button:hover {
+              background-color: darkred;
+          }
+      </style>
+  </head>
+  <body>
+      <div class="search-bar">
+          <input type="text" class="search-input" placeholder="Search..." aria-label="Search">
+          <button class="search-button">Search</button>
+      </div>
+    </nav>
 
 <h2>November 22-25 2025</h2>
 
 <h3 style="text-align: center;">The biggest feast of the year. No hidden ingredients.</h3>
 
-<div class="colored-box container">
+<div class="colored-box container" style="margin-bottom: 40px;">
   <div class="image">
     <img src="img/handburger.jpg" alt="juicy burger" class="box-image">
   </div>
   <div class="box-text text">
+
     <h2>Feastival</h2>
     <p>FEASTival is San Francisco's beloved outdoor food festival featuring iconic live music performances, amazing food, and community-centric events that highlight the food, not the chemicals. Celebrating food, community, and food transparency for over 50 years every year right here in San Francisco.</p>
   </div>
 </div>
 
-<h2>Check out our yearly food vendors!</h2>
+<style>
+  .center-text {
+      text-align: center; /* Centers the text horizontally */
+  }
+</style>
+
+<div style="text-align: center;">
+  <img src="img/food.jpg" alt="juicy burger" style="width: 500px;">
+</div>
+
+<h2>Food</h2>
 
 
-<h2>See past events here.</h2>
+<div class="constrained-text" style="margin-bottom: 20px;">Of course, there is no feast without food, so there is no shortage of vendors from all over the Bay Area to accomodate to your tastes. Enjoy over 30 selections to choose from to elevate your dietary palatte.</div>
+
+<div style="text-align: center;">
+  <img src="img/music.jpg" alt="juicy burger" style="width: 500px;" style="margin-top: 20px;">
+</div>
+
+<h2>Music</h2>
+
+<div class="constrained-text" style="margin-bottom: 20px;">Enjoy tasty bites while listening to the Bay Area's finest independent artists that range from genres of classical, soft rock, and smooth jazz.</div>
+
+<div style="text-align: center;">
+  <img src="img/vendors.jpg" alt="juicy burger" style="width: 500px;" style="margin-top: 20px;">
+</div>
+
+<h2>Vendors</h2>
+
+<div class="constrained-text" style="margin-bottom: 20px;">Browse through local and handmade household and artful wares and pieces made by Bay Area artists. Choose between award winning dinnerware, handmade ceramic vases, and signed cookbooks by local chefs.</div>
 
 
-       <p> ✩ Contact Support ✩ </p>
-       <p> Reach out and <a href="ltong@sfsu.edu">email support</a>!</p>
+<div style="text-align: center;">
+  <img src="img/tug.jpg" alt="juicy burger" style="width: 500px;" style="margin-top: 20px;">
+</div>
 
+<h2>Community Events</h2>
 
-   </body>
-   </html> 
-   
+<div class="constrained-text" style="margin-bottom: 20px;">
+  Take part in our exciting annual pie-eating contest, a thrifted fashion show, and volunteer to serve your community at the events.
+</div>
 
+<footer>
 
+  <h3>Follow us on Social Media!</h3>
 
+  <p>Instagram, Facebook, Twitter (@feastivalsf) </p>
 
+</body>
+</html>
